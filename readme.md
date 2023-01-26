@@ -8,7 +8,7 @@ Todos os créditos são dedicado a eles.
 Site que ajuda pessoas que querem ser doadores de sangue, cadastrando elas em um banco de dados.
 Também mostra os últimos doadores.
 
-# O Site
+## O Site
 
 Imagem do site
 
@@ -18,9 +18,9 @@ Imagem do site
 
 Ao clicar no botão "Quero Ajudar" é aberto alguns campos para serem preenchidos.
 Nome Completo, Email e tipo sanguíneo.
-!['imagemQueroAjudar'](/img/md/002.png 'Imagem Quero Ajudar | Doação de Sangue')
+!['imagemQueroAjudar'](/img/md/n2.jpg 'Imagem Quero Ajudar')
 
 ## Últimos Doadores
 
 Ao fim é mostrado os últimos doadores de sangue.
-![teste1](/img/md/003.png 'Imagem do Site | Doação de Sangue')
+![Imagem dos últimos doadores](/img/md/n3.jpg 'Imagem dos últimos doadores')
