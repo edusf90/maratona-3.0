@@ -16,8 +16,8 @@ Imagem do site
 
 ## Botão | Quero Ajudar
 
-<p>Ao clicar no botão "Quero Ajudar" é aberto alguns campos para serem preenchidos.
-Nome Completo, Email e tipo sanguíneo.</p>
+Ao clicar no botão "Quero Ajudar" é aberto alguns campos para serem preenchidos.
+Nome Completo, Email e tipo sanguíneo.<br>
 !['imagemQueroAjudar'](/img/md/n2.jpg 'Imagem Quero Ajudar')
 
 ## Últimos Doadores
