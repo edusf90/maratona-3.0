@@ -1,191 +1,191 @@
 /* Global */
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html, body{
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
+body {
+  display: flex;
+  flex-direction: column;
 
-    height: 100vh;
+  height: 100vh;
 
-    /* Fonte */
-    font-family: 'Roboto', sans-serif;
+  /* Fonte */
+  font-family: 'Roboto', sans-serif;
 
-    /*Cor de fundo, background */
-    background-color: #f9f9f9;
+  /*Cor de fundo, background */
+  background-color: #f9f9f9;
 }
 
-/* Títulos */ 
-header h1, main h2{
-    margin-bottom: 70px;
-
+/* Títulos */
+header h1,
+main h2 {
+  margin-bottom: 70px;
 }
 
-h1, h2{
-    color: #000000cc;
+h1,
+h2 {
+  color: #000000cc;
 }
 
-main h2 span{
-    color: #ff4f4f;
+main h2 span {
+  color: #ff4f4f;
 }
 
-.form h2{
-    text-align: right;
-    color: #ffffffee;
-    font-size: 18px;
+.form h2 {
+  text-align: right;
+  color: #ffffffee;
+  font-size: 18px;
 }
 
 /* Estruturas */
-header, main, footer{
-    /* Alinhamentos de textos */ 
-    text-align: center;
+header,
+main,
+footer {
+  /* Alinhamentos de textos */
+  text-align: center;
 }
 
-header, .form, main {
-    /* espaçamentos com margin */
-    margin: 0 auto 70px;
+header,
+.form,
+main {
+  /* espaçamentos com margin */
+  margin: 0 auto 20px;
 
-    /* limites dos elementos na página */
-    width: 90%;
-    max-width: 500px;    
+  /* limites dos elementos na página */
+  width: 90%;
+  max-width: 500px;
 }
 
 /* Header */
-header button{
-    margin-top:16px;
-    padding: 8px 16px;
-    border-radius: 4px;
-    border: none;
+header button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
 
-    background-color: #ff4f4f;
-    color:white;
+  background-color: #ff4f4f;
+  color: white;
 
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.logo{
-    width: 150px;
-    margin: 70px 0;
+.logo {
+  width: 150px;
+  margin: 30px 0 0 0;
 }
 
 header p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* Form */
-section.form{
+section.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 45px;
+  align-items: center;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 45px;
-    align-items: center;
+  background-color: #ff4f4f;
 
-    background-color: #ff4f4f;
+  padding: 16px 64px;
 
-    padding: 16px 64px;
-
-    border-radius: 6px;
-
+  border-radius: 6px;
 }
 
 form input,
-form button{
-    /* larguras */
-    width: 100%;
+form button {
+  /* larguras */
+  width: 100%;
 
-    /* espamentos */
-    margin-bottom: 4px;
+  /* espamentos */
+  margin-bottom: 4px;
 
-    /* corrigindo comportamento padrão css */
-    box-sizing: border-box;
+  /* corrigindo comportamento padrão css */
+  box-sizing: border-box;
 
-    /* Preenchimento */
-    padding: 8px 16px;
+  /* Preenchimento */
+  padding: 8px 16px;
 
-    /* Bordas */
-    border-radius: 4px;
-    border: 1px #ffffffaa solid;
-    
-    background-color: white;
+  /* Bordas */
+  border-radius: 4px;
+  border: 1px #ffffffaa solid;
 
-    font-weight: bold;
-    
+  background-color: white;
+
+  font-weight: bold;
 }
-form input{
-    background-color: transparent;
-    
+form input {
+  background-color: transparent;
 }
 
-form input::placeholder{
-    color: #ffffffaa;
+form input::placeholder {
+  color: #ffffffaa;
 }
 
-main .donors{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+main .donors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.blood{
-    color: #ff4f4f;
-    font-weight: bold;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
+.blood {
+  color: #ff4f4f;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
 }
 
-.blood::before{
-    content: "";
-    background-color:#ff4f4f11;
+.blood::before {
+  content: '';
+  background-color: #ff4f4f11;
 
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 
-    position: absolute;
-    
-    /* Fazer a gotinha */
-    border-radius: 50%;
-    border-top-right-radius: 0;
+  position: absolute;
 
-    transform: rotate(-45deg);
+  /* Fazer a gotinha */
+  border-radius: 50%;
+  border-top-right-radius: 0;
+
+  transform: rotate(-45deg);
 }
 
-.donors p{
-    margin-top: 24px;
-    font-size: 14px;
-    
+.donors p {
+  margin-top: 24px;
+  font-size: 14px;
 }
 
 /* Rodapé */
-footer{
-    margin-top: auto;
+footer {
+  margin-top: auto;
 
-    padding: 16px;
+  padding: 16px;
 
-    border: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 
 /* funcionalidades com javascript */
-section.form{
-    transition: all 300ms;
+section.form {
+  transition: all 300ms;
 }
-
 
 section.form.hide {
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
-    margin-bottom: -70px;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin-bottom: -70px;
 }
 
-footer div p a{
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
+footer div p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
