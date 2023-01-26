@@ -1,8 +1,8 @@
 # Projeto Maratona 3.0 | RocketSeat
 
-Olá, este projeto foi realizado na Maratona 3.0 da **[RocketSeat](https://www.rocketseat.com.br/){:target="_blank"}**.<br/>
+Olá, este projeto foi realizado na Maratona 3.0 da **[RocketSeat](https://www.rocketseat.com.br/)**.<br/>
 Todos os créditos são dedicado a eles.<br/>
-Para acessar o site [clique aqui](https://edusf90.github.io/maratona-3.0/){:target="_blank"}.
+Para acessar o site [clique aqui](https://edusf90.github.io/maratona-3.0/).
 
 # O Projeto
 
