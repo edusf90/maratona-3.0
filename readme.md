@@ -1,13 +1,13 @@
 # Projeto Maratona 3.0 | RocketSeat
 
-<p>Olá, este projeto foi realizado na Maratona 3.0 da **[RocketSeat](https://www.rocketseat.com.br/)**.</p>
-<p>Todos os créditos são dedicado a eles.</p>
-<p>Para acessar o site [clique aqui](https://edusf90.github.io/maratona-3.0/).</p>
+> Olá, este projeto foi realizado na Maratona 3.0 da **[RocketSeat](https://www.rocketseat.com.br/)**.
+> Todos os créditos são dedicado a eles.</p>
+> Para acessar o site [clique aqui](https://edusf90.github.io/maratona-3.0/).
 
 # O Projeto
 
-Site que ajuda pessoas que querem ser doadores de sangue, cadastrando elas em um banco de dados.
-Também mostra os últimos doadores.
+>Site que ajuda pessoas que querem ser doadores de sangue, cadastrando elas em um banco de dados.
+> Também mostra os últimos doadores.
 
 ## O Site
 
